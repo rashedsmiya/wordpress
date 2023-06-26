@@ -23,9 +23,11 @@ body{
 nav{
     font-size: 18px;
 }
+
 article{
     margin-bottom: 60px;
 }
+
 .post-header{
     margin-bottom: 40px;
 }
@@ -37,6 +39,7 @@ aside{
     /* padding-top: 50px;
     padding-bottom: 50px; */
     padding: 50px 0;
+    width: 500px;
 }
 
  h1,
