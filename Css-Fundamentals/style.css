@@ -20,9 +20,16 @@ body{
     padding: 20px 40px;
     margin-bottom: 60px;
 }
+nav{
+    font-size: 18px;
+}
+article{
+    margin-bottom: 60px;
+}
 .post-header{
     margin-bottom: 40px;
 }
+
 aside{
     background-color: #f7f7f7;
     border-top: #1098ad;
@@ -114,9 +121,7 @@ aside{
   list-style: none;
 }
 
-.main-header{
-    background-color: #f7f7f7;
-}
+
 aside{
     background-color: #f7f7f7;
     border: 5px solid #1098ad;
@@ -180,7 +185,5 @@ a:active{
 footer p{
     color: green !important;
 } */
-nav{
-    font-size: 18px;
-}
+
 
