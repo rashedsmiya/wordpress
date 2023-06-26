@@ -105,6 +105,27 @@ li:nth-child(even) {
     /* color: red; */
 }
 
-article p:last-child{
+article p:first-child{
   color: red;
 }
+
+a:link{
+    color: #1098ad;
+    text-decoration: none;
+}
+a:visited{
+    /* color: #777; */
+    color: #1098ad;
+}
+
+a:hover{
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active{
+    background-color: rgb(137, 255, 3);
+    font-style: italic;
+}
+
