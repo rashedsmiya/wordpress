@@ -33,6 +33,7 @@ body{
 
 nav{
     font-size: 18px;
+    text-align: center;
 }
 
 article{
@@ -41,7 +42,7 @@ article{
 
 .post-header{
     margin-bottom: 40px;
-    position: relative;
+    /* position: relative; */
 }
 
 aside{
@@ -201,6 +202,8 @@ nav a:link {
     margin-right: 30px;
     margin-top: 10px;
     display: inline-block;
+
+    text-align: center;
 }
 
 
@@ -255,8 +258,10 @@ h2::before{
 .text {
     color: yellow;
 }
+
 footer p{
     color: green !important;
 } */
 
 
+Googlle
