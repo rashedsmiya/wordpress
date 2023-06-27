@@ -9,7 +9,6 @@ body{
     font-family: sans-serif;
 
     border-top: 10px solid #1098ad;
-    margin: 0;
 }
 
 .container{
@@ -27,7 +26,7 @@ body{
     padding-right: 40px; */
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
+    /* height: 80px; */
 }
 
 nav{
@@ -86,7 +85,6 @@ aside{
      font-size: 22px;
      line-height: 1.5;
      margin-bottom: 15px;
-     
  }
  ul,
  ol{
@@ -100,7 +98,8 @@ aside{
 
  li {
     font-size: 20px;
-    margin-bottom: 10px;       
+    margin-bottom: 10px;
+    display: inline;       
  }
 
  /* footer p{
@@ -186,6 +185,24 @@ a:active{
 .post-img{
     width: 100%;
     height: auto;
+}
+
+nav a:link {
+
+    /* background-color: orangered;
+    margin: 20px;
+    padding: 20px;
+    
+    display: block; */
+
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+nav a:link:last-child{
+    margin-right: 0;
 }
 
 /* #copyright{
