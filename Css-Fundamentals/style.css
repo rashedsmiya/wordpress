@@ -352,6 +352,7 @@ footer{
   font-style: italic;
 }
 
+/* 
 .row{
   display: flex;
   align-items: flex-start;
@@ -368,6 +369,6 @@ article{
 aside{
   flex-basis: 0 0 300px;
 
-}
+} */
 
 
