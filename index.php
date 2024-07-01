@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body> 
-</html>
+<?php 
+
+// $post_count = wp_count_posts()->publish;
+
+// echo 'Total Published Post:' . $post_count;
+
+echo wp_count_posts()->publish;
+
+// $postcount =$post_count;
+// while($postcount<4){
+// echo $postcount."<br>";// 0,1,2,3
+// $postcount++;
+//}
+
+?> 
